@@ -4,4 +4,4 @@ Dataset link: https://www.kaggle.com/datasets/arnavkulkarni/housing-prices-in-lo
 
 Algorithms used: Bagging Regressor (with Decision Tree Regressor as the base estimator)
 
-Accuracy score: 61%
+Accuracy score: 63%
