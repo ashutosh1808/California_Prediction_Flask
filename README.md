@@ -21,7 +21,7 @@ This is a web application used for predicting the house price at various locatio
 
 ## Installation
 
-Install my-project with npm
+Install my-project with pip
 
 ```bash
   pip install sklearn
