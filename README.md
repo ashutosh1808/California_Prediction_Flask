@@ -1,9 +1,6 @@
-# London_House_Price_Prediction_Flask
 
-Dataset link: https://www.kaggle.com/datasets/arnavkulkarni/housing-prices-in-london
+# London House Price Prediction
 
-Algorithms used: Bagging Regressor (with Decision Tree Regressor as the estimator)
+This is a web application used for predicting the house price at various locations at London. The dataset has been trained using Bagging Regressor (Decision Tree as estimator). 
 
-Accuracy score: 63%
 
-Colab Notebook Link: https://colab.research.google.com/drive/175jBEfH5T0O4MWS8OkUYfstEDyTNI3ZO?usp=sharing
