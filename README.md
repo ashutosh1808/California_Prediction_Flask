@@ -2,7 +2,7 @@
 
 Dataset link: https://www.kaggle.com/datasets/arnavkulkarni/housing-prices-in-london
 
-Algorithms used: Bagging Regressor (with Decision Tree Regressor as the base estimator)
+Algorithms used: Bagging Regressor (with Decision Tree Regressor as the estimator)
 
 Accuracy score: 63%
 
