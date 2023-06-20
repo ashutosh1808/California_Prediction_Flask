@@ -19,22 +19,34 @@ This is a web application used for predicting the house price at various locatio
 **Server:** Flask, Python
 
 
-## Installation
 
-Install my-project with pip
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://https://github.com/ashutosh1808/London_House_Price_Prediction
+```
+
+Go to the project directory
+
+```bash
+  cd London_House_Price_Prediction
+```
+
+Install dependencies
 
 ```bash
   pip install sklearn
 ```
+
+Start the server
+
 ```bash
-  pip install pandas
+  python app.py
 ```
-```bash
-  pip install matplotlib
-```
-```bash
-  pip install numpy
-```
+
+
 
     
 ## Deployment
