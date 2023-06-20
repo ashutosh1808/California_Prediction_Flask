@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London House Price Prediction</title>
+    <style>
+        *{font-size: 102%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+	input[type="number"],select{ width: 50%; }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>London House Price Prediction</h1>
+        <br>
+        <form action="/pred" method="post">
+            <label for="">Enter area (in sq ft.)</label>
+            <input type="number" name="ar" placeholder="enter area(per sq ft)" min="100" max="12000" required/>
+            <br><br>
+            <label for="">Enter no of bedrooms</label>
+            <input type="number" name="bd" placeholder="enter no of bedrooms" min="1" max="5" required/>
+            <br><br>
+            <label for="">Enter no of bathrooms</label>
+            <input type="number" name="bt" placeholder="enter no of bathrooms" min="1" max="5" required/>
+            <br><br>
+            <label for="">Enter no of receptions</label>
+            <input type="number" name="rc" placeholder="enter no of receptions" min="1" max="4" required/>
+            <br><br>
+            <label for="">Select a location</label>
+            <select name="lc" id="" required>
+                <option value="">--Select--</option>
+                <option value="Chelsea">Chelsea</option>
+                <option value="Fulham">Fulham</option>
+                <option value="Essex">Essex</option>
+                <option value="London">London</option>
+                <option value="Wimbledon">Wimbledon</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Predict"/>
+        </form>
+	{{msg}}
+    </center>
+</body>
+</html>
