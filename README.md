@@ -46,14 +46,3 @@ Start the server
   python app.py
 ```
 
-
-
-    
-## Deployment
-
-To deploy this project run
-
-```bash
-  python app.py
-```
-
