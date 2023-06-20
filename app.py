@@ -26,10 +26,10 @@ def pred():
 	with open("london.model","rb") as f:
 		model=pickle.load(f)
 	res=round(model.predict(d)[0],0)
-	c=CurrencyRates()
-	res_inr=c.convert('GBP','INR',res)
-	per_sqft=res_inr//ar
-	msg="Price in INR= ₹"+str(round(res_inr,0))+"\n"+"Price per sq.ft. = "+"₹"+str(per_sqft)
+	#c=CurrencyRates()
+	#res_inr=c.convert('GBP','INR',res)
+	per_sqft=res//ar
+	msg="Prediction= "+"£"+str(res)+" "+"\n"+"Rate = "+"£"+str(per_sqft)+"/sq.ft."
 	return render_template("home.html",msg=msg)
 
 if __name__=="__main__":
