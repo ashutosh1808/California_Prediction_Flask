@@ -16,7 +16,7 @@ This is a web application used for predicting the house price at various locatio
 
 **Client:** HTML, CSS, JavaScript
 
-**Server:** Flask, Python
+**Server:** Flask, Python, PythonAnywhere
 
 
 
